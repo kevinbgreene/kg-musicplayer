@@ -1,0 +1,26 @@
+{
+  "name": "kg-musicplayer",
+  "version": "0.0.0",
+  "description": "A simple mp3 player",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-watch": "~0.6.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt": "~0.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinbgreene/kg-musicplayer.git"
+  },
+  "author": "Kevin B. Greene",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/kevinbgreene/kg-musicplayer/issues"
+  }
+}

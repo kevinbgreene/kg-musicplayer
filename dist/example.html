@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Music Player Example</title>
+
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+	<div class="kg-musicplayer">
+
+		<div class="kg-progress-bar">
+
+			<div class="progress-inner">
+				
+				<div class="progress-background"></div>
+				<div class="buffer-bar"></div>
+				<div class="progress-bar"></div>
+				<div class="click-bar"></div>
+
+			</div>
+
+		</div>
+
+		<ul class="kg-track-list">
+
+			<li class="kg-track-entry">
+
+				<div class="play-button">
+				
+					<img class="pause-state" src="assets/pause-button.png" width="10" height="10" />
+
+					<img class="play-state" src="assets/play-arrow-highlight.png" width="10" height="10" />
+				
+				</div>
+
+				<span class="track-title">Sample Song<span class="duration">00:00</span></span>
+
+				<audio src="songs/sample_song.mp3" preload="none" />
+
+			</li>
+
+		</ul> <!-- tracks -->
+
+	</div>
+
+	<script src="js/kg-musicplayer.0.0.0.js"></script>
+	
+</body>
+
+</html>

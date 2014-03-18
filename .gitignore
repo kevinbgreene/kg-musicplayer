@@ -1,0 +1,5 @@
+_notes.txt
+dev/js/vendor
+node_modules
+.DS_Store
+.sass-cache

@@ -1,0 +1,21 @@
+{
+  "name": "kg-musicplayer",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kevinbgreene/kg-musicplayer",
+  "description": "A simple mp3 player",
+  "authors": [
+    "Kevin B Greene"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "dev/js/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.10"
+  }
+}
