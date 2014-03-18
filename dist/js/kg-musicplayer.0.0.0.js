@@ -3100,7 +3100,7 @@
     }, kg.size = size, kg.isUndefined = isUndefined, kg.isDefined = isDefined, kg.isObject = isObject, 
     kg.isString = isString, kg.isNumber = isNumber, kg.isDate = isDate, kg.isArray = isArray, 
     kg.isFunction = isFunction, kg.isBoolean = isBoolean;
-}(window, window.$), function(exports, kg) {
+}(window, window.document), function(exports, kg) {
     "use strict";
     function init() {
         exports.navigator.standalone && (sniffer.standalone = !0), sniffer.touch = function() {

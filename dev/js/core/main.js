@@ -1,4 +1,4 @@
-(function(exports, $) {
+(function(exports, document) {
 
     'use strict';
 
@@ -128,4 +128,4 @@
     kg.isFunction = isFunction;
     kg.isBoolean = isBoolean;
 
-}(window, window.$));
+}(window, window.document));

@@ -48,8 +48,6 @@ module.exports = function(grunt) {
 
                         'dev/js/views/Song.js',
                         'dev/js/views/ProgressBar.js',
-                        'dev/js/views/Genre.js',
-
                         'dev/js/utility/Audio.js'
                     ]
                 }
